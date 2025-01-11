@@ -20,5 +20,5 @@ main.c:(.text+0xeb8): undefined reference to floorf'``
 
 To fix it, you may have to link the math library
 
-``gcc -o bayer_img.elf pipeline.o main.o -lm``
+``gcc -o <OUTPUT_EXE> pipeline.o main.o -lm``
 
